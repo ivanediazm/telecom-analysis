@@ -222,6 +222,37 @@ Customer churn should be evaluated by:
 This can help identify customer groups with higher abandonment risk and improve retention strategies.
 
 ---
+## Key Visualizations
+
+### Call Distribution by Plan
+
+![Call Distribution by Plan](call_distribution_by_plan.png)
+
+The distribution of calls is similar across Basic and Premium customers, with most users concentrated around moderate call activity.
+
+This suggests that call frequency alone may not fully explain plan selection.
+
+---
+
+### Usage Level by Age Group
+
+![Usage Level by Age Group](usage_level_by_age_group.png)
+
+Medium-usage customers represent the largest segment across all age groups.
+
+The similarity between groups suggests that age alone does not strongly explain customer usage behavior, so additional variables should be considered for segmentation.
+
+---
+
+### Call Minutes Outlier Analysis
+
+![Call Minutes Outlier Analysis](call_minutes_outliers.png)
+
+The distribution includes several customers with call-minute usage significantly above the typical range.
+
+These observations should not automatically be removed, since they may represent legitimate high-consumption customers with greater commercial value rather than data errors.
+
+---
 
 ## Recommendations
 
